@@ -1,0 +1,101 @@
+body {
+    margin: 50px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+img {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: beige;
+    width: 30%;
+
+}
+
+.imagen-main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 300px;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color:white;
+    font-size: 40px;
+    transform: rotate(1deg);
+    text-shadow: -3px 4px 4px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro{
+    background: #156106;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: verdana, sans-serif;
+}
+
+.navigation {
+    font-size: 30px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a{
+    color: white;
+    background: #090979;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+  
+    text-decoration: none;
+}
+
+a:link{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:visited{
+    background-color: purple;
+}
+
+a:hover {
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+
+a:active{
+    color:red;
+}
+
+.div-recetas{
+    margin: 10px;
+    padding: 20px;
+}
+
+.div-apple{
+    background-color: darkmagenta;
+    color: white;
+}
+
+.div-chocolate{
+    background-color: darkgreen;
+    color: white;
+}
+
+.div-fresa{
+    background-color: darkblue;
+    color: white;
+}
