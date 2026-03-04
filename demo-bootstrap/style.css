@@ -1,0 +1,18 @@
+.navbar{
+    padding: 2rem;
+    background-color:red;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Media query. Cuando llegue a un punto de quiebre de md, lg o de lo que sea.
+*/
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
