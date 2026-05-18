@@ -1,0 +1,26 @@
+{
+  "name": "chatmsg2-server",
+  "version": "1.0.0",
+  "description": "ChatMSG backend - compatible con protocolo compartido via Redis pub/sub",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "dev:1": "cross-env PORT=4000 SERVER_ID=srv-1 node --watch server.js",
+    "dev:2": "cross-env PORT=4001 SERVER_ID=srv-2 node --watch server.js",
+    "dev:both": "concurrently -n srv-1,srv-2 -c blue,magenta \"npm:dev:1\" \"npm:dev:2\""
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.6",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "redis": "^4.6.7",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
