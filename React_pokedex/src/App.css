@@ -1,0 +1,66 @@
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.app-header {
+  text-align: center;
+  color: #222;
+}
+
+.app-header .subtitle {
+  margin: 0 auto 12px;
+  display: inline-block;
+  font-size: 0.85rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #6c6c6c;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.05;
+}
+
+.app-header .description {
+  margin: 16px auto 0;
+  max-width: 720px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  gap: 64px;
+  align-items: stretch;
+  justify-items: center;
+}
+
+.card-grid > * {
+  width: 100%;
+  max-width: 420px;
+}
+
+@media (max-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    gap: 48px;
+  }
+}
+
+@media (max-width: 680px) {
+  .app-shell {
+    padding: 24px 16px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
