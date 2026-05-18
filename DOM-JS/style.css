@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.color-texto {
+    background-color: blueviolet;
+    color:green;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+  list-style-type: none; /* Elimina la viñeta */
+  padding: 10;            /* Quita el relleno izquierdo predeterminado */
+  margin: 10;             /* Quita el margen superior/inferior predeterminado */
+}
+
+li {
+    text-decoration: none;
+    font-size: 30px;
+}
