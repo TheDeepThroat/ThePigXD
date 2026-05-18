@@ -1,0 +1,25 @@
+{
+  "name": "PROFE-LIST",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "chart.js": "^4.5.1",
+    "lucide-vue-next": "^1.0.0",
+    "mysql2": "^3.22.3",
+    "nuxt": "^4.4.5",
+    "vue": "^3.5.34",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}
